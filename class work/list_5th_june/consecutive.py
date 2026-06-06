@@ -8,7 +8,7 @@ for i in range(len(numbers) - 1):
 
   # Check if current number and next number are consecutive
     if numbers[i] + 1 == numbers[i + 1]:
-# If they are consecutive, print the pair
+#
         print(numbers[i], "and", numbers[i + 1], "are consecutive")
 
         # Store pair in new list
